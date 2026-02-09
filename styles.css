@@ -11,7 +11,8 @@
     --blue: #1e90ff;
     --blue-light: #4da6ff;
     --blue-dark: #0066cc;
-    --dark-bg: #0a0a0f;
+    --light-bg: #0a0a0f;
+    --dark-bg: #15173D;
     --card-bg: rgba(255, 255, 255, 0.05);
     --text-primary: #ffffff;
     --text-secondary: rgba(255, 255, 255, 0.7);
