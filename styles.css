@@ -5,14 +5,14 @@
 }
 
 :root {
-    --orange: #ff6b35;
-    --orange-light: #ff8c5a;
-    --orange-dark: #e55a2b;
-    --blue: #1e90ff;
-    --blue-light: #4da6ff;
-    --blue-dark: #0066cc;
+    --orange: #D6BB80;
+    --orange-light: #fde1a3;
+    --orange-dark: #917e55;
+    --blue: #425B6F;
+    --blue-light: #64abe5;
+    --blue-dark: #24323e;
     --light-bg: #0a0a0f;
-    --dark-bg: #252c2e;
+    --dark-bg: #070e20;
     --card-bg: rgba(255, 255, 255, 0.05);
     --text-primary: #ffffff;
     --text-secondary: rgba(255, 255, 255, 0.7);
