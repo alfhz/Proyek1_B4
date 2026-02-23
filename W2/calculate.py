@@ -11,8 +11,20 @@ def calculate_maximum(numbers):
     return;
     
 def calculate_minimum(numbers):
-    # Calculate the minimum of a list of numbers
-    return;
+
+    if len(numbers) == 0:
+        return "List kosong"
+    
+    nilai_minimum = numbers[0]
+    panjang_array = len(numbers)
+
+    for i in range(panjang_array):
+       if numbers[i] < nilai_minimum:
+           nilai_minimum = numbers[i]
+
+    print("Nilai terkecil adalah: ", nilai_minimum)
+
+    return nilai_minimum
     
 def calculate_all(numbers):
     # Calculate all statistics (mean, median, maximum, minimum) and return as a dictionary
