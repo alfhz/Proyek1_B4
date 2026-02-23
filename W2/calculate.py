@@ -7,11 +7,8 @@ def calculate_median(numbers):
     return;
     
 def calculate_maximum(numbers):
-    nilai_maksimum = numbers[0]
-    for num in numbers:
-        if num > nilai_maksimum:
-            nilai_maksimum = num
-    return nilai_maksimum
+    # Calculate the maximum of a list of numbers
+    return;
     
 def calculate_minimum(numbers):
     # Calculate the minimum of a list of numbers
