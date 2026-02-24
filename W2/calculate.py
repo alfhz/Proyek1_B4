@@ -7,8 +7,13 @@ def calculate_median(numbers):
     return;
     
 def calculate_maximum(numbers):
-    # Calculate the maximum of a list of numbers
-    return;
+    def calculate_maximum(numbers):
+        nilai_maksimum = numbers[0]
+        for num in numbers:
+            if num > nilai_maksimum:
+                nilai_maksimum = num
+            
+        return nilai_maksimum
     
 def calculate_minimum(numbers):
 
@@ -19,8 +24,8 @@ def calculate_minimum(numbers):
     panjang_array = len(numbers)
 
     for i in range(panjang_array):
-       if numbers[i] < nilai_minimum:
-           nilai_minimum = numbers[i]
+        if numbers[i] < nilai_minimum:
+            nilai_minimum = numbers[i]
 
     print("Nilai terkecil adalah: ", nilai_minimum)
 
