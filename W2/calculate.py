@@ -1,8 +1,12 @@
 import statistics
 
 def calculate_mean(numbers):
+    total = 0
+    for num in numbers:
+        total += num
+    mean = total/len(numbers)
     # Calculate the mean of a list of numbers
-    return;
+    return mean
     
 def calculate_median(numbers):
     if not numbers:
