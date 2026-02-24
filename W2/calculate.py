@@ -1,10 +1,13 @@
+import statistics
+
 def calculate_mean(numbers):
     # Calculate the mean of a list of numbers
     return;
     
 def calculate_median(numbers):
-    # Calculate the median of a list of numbers
-    return;
+    if not numbers:
+        return None
+    return statistics.median(numbers)
     
 def calculate_maximum(numbers):
     nilai_maksimum = numbers[0]
