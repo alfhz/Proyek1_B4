@@ -16,8 +16,8 @@ def display_all_results(numbers, results):
     for key, value in results.items():
         print(f"{key}: {value}")
         
-def display_result(operation, result):
-    print(f"Input Numbers: {result}")
+def display_result(operation, result, numbers):
+    print(f"Input Numbers: {numbers}")
     print(f"{operation}: {result}")
     
 def display_exit_message():
